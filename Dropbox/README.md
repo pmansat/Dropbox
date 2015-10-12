@@ -19,3 +19,4 @@ Completed user stories:
 NOTE : I'm having some weird gray block on the tab screens - no clue why :( 
 
 Walkthrough of all user stories:
+https://github.com/pmansat/Dropbox/blob/master/Dropbox/Dropbox_PMANSATA.gif
