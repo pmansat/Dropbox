@@ -19,21 +19,29 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kg6-yX-Zhr">
                                 <rect key="frame" x="145" y="507" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="syS-ZZ-ARr" kind="modal" id="dT8-r4-y2h"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mgl-LK-9wv">
                                 <rect key="frame" x="128" y="440" width="68" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="uGX-NS-yIm" kind="modal" id="gNS-Po-d6y"/>
-                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcome1" id="LAj-vZ-gzY">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="tmN-Mp-FvG">
+                                <rect key="frame" x="0.0" y="5" width="312" height="563"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="syS-ZZ-ARr" kind="modal" id="w4g-o7-xit"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bQj-7a-8iD">
+                                <rect key="frame" x="145" y="440" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="uGX-NS-yIm" kind="modal" id="K4I-0B-zOi"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -55,7 +63,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jLh-GF-Flg">
-                                <rect key="frame" x="145" y="502" width="30" height="30"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <segue destination="YqY-lN-2uz" kind="modal" id="k19-er-fQG"/>
@@ -64,6 +72,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="nJu-cF-eqA"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hzg-oQ-xhz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -161,6 +170,12 @@
                                     <segue destination="A2j-Iy-eps" kind="modal" id="iuv-F0-bP8"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="zHo-oF-tYG">
+                                <rect key="frame" x="105" y="89" width="201" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -593,7 +608,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BRf-yU-9Ca" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3494" y="1260"/>
+            <point key="canvasLocation" x="3482" y="1372"/>
         </scene>
         <!--Photos-->
         <scene sceneID="JcK-Ql-gvM">
@@ -614,35 +629,37 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NOM-Dz-5cr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3917" y="1278"/>
+            <point key="canvasLocation" x="3909" y="1364"/>
         </scene>
-        <!--Settings-->
-        <scene sceneID="O69-eP-ACU">
+        <!--Item-->
+        <scene sceneID="Ugm-16-Kfn">
             <objects>
-                <viewController id="n9D-Be-w9h" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="cIj-Sn-JMU">
+                <viewController id="b00-6u-jO0" customClass="UserViewController" customModule="Dropbox" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JNK-p0-fPs" customClass="User">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="settings" id="6tF-pP-K3w">
-                                <rect key="frame" x="0.0" y="-204" width="320" height="772"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="paA-cB-2rM">
-                                <rect key="frame" x="0.0" y="486" width="320" height="45"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="t89-Zh-6JO">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="zHR-gP-hxJ" kind="modal" id="6IY-bg-DO5"/>
-                                </connections>
-                            </button>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="settings" id="pz9-yD-ejv">
+                                        <rect key="frame" x="1" y="-1" width="320" height="772"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                </subviews>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Settings" image="settings" id="Ah0-E3-AHG"/>
+                    <tabBarItem key="tabBarItem" title="Item" id="6W2-tO-chs"/>
+                    <connections>
+                        <outlet property="scrollView" destination="t89-Zh-6JO" id="gKE-e2-BgG"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jrh-Tz-KUm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y94-Yv-U68" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4403" y="1260"/>
+            <point key="canvasLocation" x="4312" y="1364"/>
         </scene>
         <!--Favorites-->
         <scene sceneID="Fau-fp-2T8">
@@ -679,7 +696,7 @@
                         <segue destination="IhH-ys-bqn" kind="relationship" relationship="viewControllers" id="o8e-bn-ulr"/>
                         <segue destination="3he-qi-Dag" kind="relationship" relationship="viewControllers" id="ULd-gT-oXT"/>
                         <segue destination="Csv-U0-mp9" kind="relationship" relationship="viewControllers" id="GGd-hJ-BlE"/>
-                        <segue destination="n9D-Be-w9h" kind="relationship" relationship="viewControllers" id="8FG-a1-lFO"/>
+                        <segue destination="b00-6u-jO0" kind="relationship" relationship="viewControllers" id="ngA-PX-T9X"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jmi-fz-OuJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -751,9 +768,8 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="zcW-iH-whr"/>
-        <segue reference="6IY-bg-DO5"/>
-        <segue reference="hJq-uw-TWa"/>
+        <segue reference="K4I-0B-zOi"/>
         <segue reference="168-Ve-pxS"/>
-        <segue reference="gNS-Po-d6y"/>
+        <segue reference="hJq-uw-TWa"/>
     </inferredMetricsTieBreakers>
 </document>

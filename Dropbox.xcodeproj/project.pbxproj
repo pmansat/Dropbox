@@ -14,6 +14,7 @@
 		ED748DBB1BC9D70100F6DEFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED748DB91BC9D70100F6DEFB /* LaunchScreen.storyboard */; };
 		ED748DC61BC9D70100F6DEFB /* DropboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED748DC51BC9D70100F6DEFB /* DropboxTests.swift */; };
 		ED748DD11BC9D70100F6DEFB /* DropboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED748DD01BC9D70100F6DEFB /* DropboxUITests.swift */; };
+		EDC850191BCB73E3003F95CB /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC850181BCB73E3003F95CB /* UserViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		ED748DCC1BC9D70100F6DEFB /* DropboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED748DD01BC9D70100F6DEFB /* DropboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropboxUITests.swift; sourceTree = "<group>"; };
 		ED748DD21BC9D70100F6DEFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDC850181BCB73E3003F95CB /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		ED748DAF1BC9D70100F6DEFB /* Dropbox */ = {
 			isa = PBXGroup;
 			children = (
+				EDC8501A1BCB743C003F95CB /* View Controllers */,
 				ED748DB01BC9D70100F6DEFB /* AppDelegate.swift */,
 				ED748DB21BC9D70100F6DEFB /* ViewController.swift */,
 				ED748DB41BC9D70100F6DEFB /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				ED748DD21BC9D70100F6DEFB /* Info.plist */,
 			);
 			path = DropboxUITests;
+			sourceTree = "<group>";
+		};
+		EDC8501A1BCB743C003F95CB /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EDC850181BCB73E3003F95CB /* UserViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED748DB31BC9D70100F6DEFB /* ViewController.swift in Sources */,
+				EDC850191BCB73E3003F95CB /* UserViewController.swift in Sources */,
 				ED748DB11BC9D70100F6DEFB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
